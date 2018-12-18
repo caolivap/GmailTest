@@ -2,6 +2,7 @@ package ui;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
+import org.openqa.selenium.By;
 
 @DefaultUrl("https://www.gmail.com")
 public class GmailPage extends PageObject {
@@ -26,7 +27,9 @@ public class GmailPage extends PageObject {
     public static String mensajeEnviado = "span[class = 'bAq']";
 
     public void iniciarSesion() {
-        $(btnIniciarSesion).click();
+        if(find(By.xpath(btnIniciarSesion)) != null){
+            $(btnIniciarSesion).click();
+        }
     }
 
     public void entrarUsuario(String username) {
