@@ -10,8 +10,9 @@ Característica: Enviar correo
     Entonces Deberia poder enviar mi correo
     Entonces Deberia poder ver en la cuenta <destinatario> con pass <passDestino> el correo con remitente <remitente> asunto <asunto> y contenido <contenido>
     Ejemplos: :
-  | remitente                   | passRemitente | destinatario                  | asunto | contenido           |  passDestino |
-  | pruebascaoliva@gmail.com    | testingsura   | pruebadestinatario@gmail.com  | Prueba | Prueba que pasaria  |  testingsura |
-  | ab                          | hola          | pruebadestinatario@gmail.com  | Prueba | usuario y pass malo |  testingsura |
-
+  | remitente                   | passRemitente | destinatario                  | asunto   | contenido               |  passDestino |
+  | pruebascaoliva@gmail.com    | testingsura   | pruebadestinatario@gmail.com  | Prueba   | Prueba que pasaria      |  testingsura |
+  | pruebascaoliva@gmail.com    | testingsura   | pruebadestinatario@gmail.com  | Prueba 2 | 2 Prueba que pasaria    |  testingsura |
+  | pruebascaoliva@gmail.com    | testingsura   | pruebadestinatario@gmail.com  | Prueba 3 | 3 Prueba que pasaria    |  testingsura |
+  | pruebascaoliva@gmail.com    | testingsura   | pruebadestinatario@gmail.com  | Prueba 4 | 4 Prueba que pasaria    |  testingsura |
 
