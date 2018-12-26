@@ -1,17 +1,17 @@
 package steps.userSteps;
 
 import net.thucydides.core.annotations.Step;
-import org.junit.Assert;
 import ui.GmailPage;
 
 public class GmailUser {
     private GmailPage gmailPage;
 
+    public void abrirNavegador(){
+        gmailPage.open();
+    }
     @Step
     public void abrirBandejaDeEntrada(String username, String pass) {
-        gmailPage.open();
-        gmailPage.iniciarSesion();
-        gmailPage.entrarUsuario(username);
+        gmailPage.iniciarSesion(username);
         gmailPage.entrarContrasena(pass);
     }
 
@@ -29,8 +29,19 @@ public class GmailUser {
     }
 
     @Step
-    public void deberiaVerMensaje() {
-        String mensaje = gmailPage.verificarMensaje();
-        Assert.assertEquals(mensaje, "Mensaje enviado.");
+    public void verMensajeEnviado() {
+        gmailPage.verMensajeEnviado();
     }
+
+    @Step
+    public void cerrarSesion() {
+        gmailPage.cerrarSesion();
+    }
+
+    @Step
+    public void revisarCorreoRecibido(String remitente, String asunto, String contenido) {
+        gmailPage.deberiaVerCorreoRecibido(remitente, asunto, contenido);
+    }
+
+
 }

@@ -49,8 +49,8 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0],
-                ['Pending', 1],
+                ['Passing', 1],
+                ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
                 ['Errors',  0],
@@ -82,8 +82,8 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 requirements tested successfully'},
-                {label: '1 requirements pending'},
+                {label: '1 requirements tested successfully'},
+                {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
                 {label: '0} requirements with errors'},
@@ -180,7 +180,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-12-2018 15:38</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-12-2018 11:34</span>
     <br style="clear:left"/>
 </div>
 
@@ -213,19 +213,19 @@
                                         <td class="summary-leading-column"><a
                                                 href="#requirements-tabs">Features</a></td>
                                         <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
                                         <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
                                         <td>0</td>
                                     </tr>
 
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria
                                         (tests)</a></td>
-                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>4</td>
                                     <td>0</td>
                                     <td>0</td>
-                                    <td>2</td>
                                     <td>0</td>
                                     <td></td>
                                 </tr>
@@ -253,10 +253,10 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>2</td>
+            <td>4</td>
+            <td>4 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
-            <td>2 (100%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
@@ -269,15 +269,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>2</td>
+            <td>4</td>
+            <td>4 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
-            <td>2 (100%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">1 seconds</td>
+                <td colspan="5">4 minutes 14 seconds</td>
         </tr>
         </body>
     </table>
@@ -313,29 +313,27 @@
 
 
 
-                <tr class="test-PENDING requirementRow">
+                <tr class="test-SUCCESS requirementRow">
                     <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                        <span style="display:none">2</span>
+                        <span class="status_icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                        <span style="display:none">1</span>
                     </td>
                     <td class="cardNumber requirementRowCell"></td>
 
-                    <td class="PENDING-text requirementRowCell">
+                    <td class="SUCCESS-text requirementRowCell">
                         <a href="javaScript:void(0)" class="read-more-link">
                             <img src="images/plus.png" height="16"/></a>
                         <span class="requirementName"><a
                                 href="1a101b9362f1a1e4811c3d9568eea36a2fd147224c36cd6c61a580df5753df0b.html">Enviar correo</a></span>
 
-                        <div class="requirementNarrative read-more-text">Para comunicarme con mis contactos de correo electronico
-Como usuario de Gmail
-Quiero enviar correos electronicos</div>
+                        <div class="requirementNarrative read-more-text"></div>
                     </td>
 
 
-                    <td class="greentext highlighted-value requirementRowCell">2</td>
+                    <td class="greentext highlighted-value requirementRowCell">4</td>
 <!--
-                    <td class="greentext requirementRowCell">0</td>
-                    <td class="bluetext requirementRowCell">2</td>
+                    <td class="greentext requirementRowCell">4</td>
+                    <td class="bluetext requirementRowCell">0</td>
                     <td class="redtext requirementRowCell">0</td>
                     <td class="lightorangetext requirementRowCell">0</td>
                     <td class="violettext requirementRowCell">0</td>
@@ -354,71 +352,71 @@ Quiero enviar correos electronicos</div>
 <table>
     <tr>
         <td width="40px">
-            <div class="small">0%</div>
+            <div class="small">100%</div>
         </td>
         <td width="125px">
             <div class="percentagebar"
-                 title="  - Total tests: 2
-  - Passing tests: 0 (0%)
+                 title="  - Total tests: 4
+  - Passing tests: 4 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 2 (100%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)"
                  style="width: 125px;">
                 <div class="pendingbar"
-                     title="  - Total tests: 2
-  - Passing tests: 0 (0%)
+                     title="  - Total tests: 4
+  - Passing tests: 4 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 2 (100%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)"
                      style="width: 125px;">
                     <div class="ignoredbar"
-                         style="width: 0px;"
-                         title="  - Total tests: 2
-  - Passing tests: 0 (0%)
+                         style="width: 125px;"
+                         title="  - Total tests: 4
+  - Passing tests: 4 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 2 (100%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                         <div class="compromisedbar"
-                             style="width: 0px;"
-                             title="  - Total tests: 2
-  - Passing tests: 0 (0%)
+                             style="width: 125px;"
+                             title="  - Total tests: 4
+  - Passing tests: 4 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 2 (100%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                             <div class="errorbar"
-                                 style="width: 0px;"
-                                 title="  - Total tests: 2
-  - Passing tests: 0 (0%)
+                                 style="width: 125px;"
+                                 title="  - Total tests: 4
+  - Passing tests: 4 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 2 (100%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                                 <div class="failingbar"
-                                     style="width: 0px;"
-                                     title="  - Total tests: 2
-  - Passing tests: 0 (0%)
+                                     style="width: 125px;"
+                                     title="  - Total tests: 4
+  - Passing tests: 4 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 2 (100%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                                     <div class="passingbar"
-                                         style="width: 0px;"
-                                         title="  - Total tests: 2
-  - Passing tests: 0 (0%)
+                                         style="width: 125px;"
+                                         title="  - Total tests: 4
+  - Passing tests: 4 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 2 (100%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                                     </div>
                                 </div>
@@ -459,27 +457,27 @@ Quiero enviar correos electronicos</div>
                         </thead>
                         <tbody>
 
-                            <tr class="test-PENDING">
-                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">PENDING</span></td>
-                                <td class="PENDING-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="1bc5cdcab8cf1cfdb9a238afa1dc520f8bac61466e2f7cb4aa95964192ef4bfd.html" class="ellipsis"
                                            title=": Enviando un correo en Gmail ">
-                                            : Enviando un correo en Gmail&nbsp;(2  examples)
+                                            : Enviando un correo en Gmail&nbsp;(4  examples)
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="PENDING-text">10</td>
+                                <td class="SUCCESS-text">48</td>
 
 
-                                <td class="PENDING-text" data-sort="2018-12-18 15:38:21">15:38:21</td>
+                                <td class="SUCCESS-text" data-sort="2018-12-26 11:34:26">11:34:26</td>
 
-                                <td class="PENDING-text">1.19</td>
+                                <td class="SUCCESS-text">254.18</td>
                             </tr>
                         </tbody>
                     </table>

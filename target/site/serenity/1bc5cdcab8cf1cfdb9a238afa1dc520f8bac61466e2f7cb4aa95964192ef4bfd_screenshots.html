@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="1a101b9362f1a1e4811c3d9568eea36a2fd147224c36cd6c61a580df5753df0b.html">Enviar Correo</a></span>
+                > <span class="truncate-60"><a
+                    href="1bc5cdcab8cf1cfdb9a238afa1dc520f8bac61466e2f7cb4aa95964192ef4bfd.html">: Enviando un correo en Gmail </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-12-2018 11:34</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Enviar Correo </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">: Enviando un correo en Gmail
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado Estoy en la bandeja de entrada de Gmail con usuario &lt;remitente&gt; y contrasena &lt;passRemitente&gt;<br>Cuando Redacto un correo para &lt;destinatario&gt; con asunto &lt;asunto&gt; y contenido &lt;contenido&gt;<br>Entonces Deberia poder enviar mi correo<br>Entonces Deberia poder ver en la cuenta &lt;destinatario&gt; con pass &lt;passDestino&gt; el correo con remitente &lt;remitente&gt; asunto &lt;asunto&gt; y contenido &lt;contenido&gt;</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="07d201f318bf9cc37cf48e94edc95ff527788da60adb33eea3775ac2c272fc5c.png" title=": Enviando un correo en Gmail #1: {remitente=pruebascaoliva@gmail.com, passRemitente=testingsura, destinatario=pruebadestinatario@gmail.com, asunto=Prueba, contenido=Prueba que pasaria, passDestino=testingsura}" width="1034"/>
+                <img src="3ef4d7eb475c99d7915db1992efd6ffd865251c9002502e562bf0ac128f0c4e8.png" title="Dado Estoy en la bandeja de entrada de Gmail con usuario pruebascaoliva@gmail.com y contrasena testingsura" width="1034"/>
+                <img src="0ff67e1448a149aacf6124aa4ff8768f51ebff7768266b5a6d101fa65632c8a8.png" title="Abrir bandeja de entrada: pruebascaoliva@gmail.com, testingsura" width="1034"/>
+                <img src="47f2e9ab90ecf302df3621a2374315af94e2b648fb72aafa0cf247916b35eeee.png" title="Abrir bandeja de entrada: pruebascaoliva@gmail.com, testingsura" width="1034"/>
+                <img src="2081dde72082b311a3eb3ae838c1fe90b6442b12c427cae9393df4168c97a713.png" title="Cuando Redacto un correo para pruebadestinatario@gmail.com con asunto Prueba y contenido Prueba que pasaria" width="1034"/>
+                <img src="15f3b502dfeea72ca760f510874251a8279acdbb05c20b2f3e857cf06f558a16.png" title="Cuando Redacto un correo para pruebadestinatario@gmail.com con asunto Prueba y contenido Prueba que pasaria" width="1034"/>
+                <img src="ade7af9aeaaf3e933c5305a0555f8e1586503d450982bc92216d90818183a491.png" title="Redactar correo: pruebadestinatario@gmail.com, Prueba, Prueba que pasaria" width="1034"/>
+                <img src="15f3b502dfeea72ca760f510874251a8279acdbb05c20b2f3e857cf06f558a16.png" title="Redactar correo: pruebadestinatario@gmail.com, Prueba, Prueba que pasaria" width="1034"/>
+                <img src="6d18014d734064ac69134aa1b3609c68872039558a26ddddc4d9a22e4566d26a.png" title="Entonces Deberia poder enviar mi correo" width="1034"/>
+                <img src="6d18014d734064ac69134aa1b3609c68872039558a26ddddc4d9a22e4566d26a.png" title="Enviar correo" width="1034"/>
+                <img src="32d169893832bf7ea4bb538876cc73b63c04505ea2580c805e73c8987e316a69.png" title="Enviar correo" width="1034"/>
+                <img src="32d169893832bf7ea4bb538876cc73b63c04505ea2580c805e73c8987e316a69.png" title="Ver mensaje enviado" width="1034"/>
+                <img src="2bacd881796465eb877133e885ebd9c48943a92f1a50a3603a1a9ec78d57727f.png" title="Ver mensaje enviado" width="1034"/>
+                <img src="2bacd881796465eb877133e885ebd9c48943a92f1a50a3603a1a9ec78d57727f.png" title="Cerrar sesion" width="1034"/>
+                <img src="07d201f318bf9cc37cf48e94edc95ff527788da60adb33eea3775ac2c272fc5c.png" title="Entonces Deberia poder ver en la cuenta pruebadestinatario@gmail.com con pass testingsura el correo con remitente pruebascaoliva@gmail.com asunto Prueba y contenido Prueba que pasaria" width="1034"/>
+                <img src="95c417da8b1cf5b33a20c5454c05a78cb4a47994f7a6c20687deb434e82fe930.png" title="Abrir bandeja de entrada: pruebadestinatario@gmail.com, testingsura" width="1034"/>
+                <img src="ebc77c2a47842414dc3c344fca81948ecfb77cda0dc9dc3f4db24abda2a2d903.png" title="Abrir bandeja de entrada: pruebadestinatario@gmail.com, testingsura" width="1034"/>
+                <img src="73a77cf29a8164b178ccd1baf71071549771b98843875d870011131f00212b0d.png" title="Revisar correo recibido: pruebascaoliva@gmail.com, Prueba, Prueba que pasaria" width="1034"/>
+                <img src="07d201f318bf9cc37cf48e94edc95ff527788da60adb33eea3775ac2c272fc5c.png" title="Revisar correo recibido: pruebascaoliva@gmail.com, Prueba, Prueba que pasaria" width="1034"/>
+                <img src="f618ade520f94b12be9df0967341c9273ffeae595cc14bd615c4553a6f744ccf.png" title=": Enviando un correo en Gmail #2: {remitente=pruebascaoliva@gmail.com, passRemitente=testingsura, destinatario=pruebadestinatario@gmail.com, asunto=Prueba 2, contenido=2 Prueba que pasaria, passDestino=testingsura}" width="1034"/>
+                <img src="a0b01d2e2f2ea1982e41f950699e98d9363394dae09c22467ad2e9f63a7b70db.png" title="Dado Estoy en la bandeja de entrada de Gmail con usuario pruebascaoliva@gmail.com y contrasena testingsura" width="1034"/>
+                <img src="0ff67e1448a149aacf6124aa4ff8768f51ebff7768266b5a6d101fa65632c8a8.png" title="Abrir bandeja de entrada: pruebascaoliva@gmail.com, testingsura" width="1034"/>
+                <img src="280cc8f4623aed7ffa54c51b1350eefecc8ae520b9a3f736de0510f2f3e8441e.png" title="Abrir bandeja de entrada: pruebascaoliva@gmail.com, testingsura" width="1034"/>
+                <img src="65ab18c376cbaddaef41a6602c099f0e0999ee7d67d7bb4af1916923817c75f5.png" title="Cuando Redacto un correo para pruebadestinatario@gmail.com con asunto Prueba 2 y contenido 2 Prueba que pasaria" width="1034"/>
+                <img src="4764ce8a4eccd9a99a07fc2fc8f64a2ca936d9d71c8a435f95c016846580c671.png" title="Cuando Redacto un correo para pruebadestinatario@gmail.com con asunto Prueba 2 y contenido 2 Prueba que pasaria" width="1034"/>
+                <img src="6cd7bd72cebf446afbbf87eda3929eaecc1cccf6550786b6a692dcf4f58f821e.png" title="Redactar correo: pruebadestinatario@gmail.com, Prueba 2, 2 Prueba que pasaria" width="1034"/>
+                <img src="4764ce8a4eccd9a99a07fc2fc8f64a2ca936d9d71c8a435f95c016846580c671.png" title="Redactar correo: pruebadestinatario@gmail.com, Prueba 2, 2 Prueba que pasaria" width="1034"/>
+                <img src="bcd1adbe918e179897272d55afcf60ca667d1e215dcbb858e35d83b4128432eb.png" title="Entonces Deberia poder enviar mi correo" width="1034"/>
+                <img src="46b1eb6e2690ff7683375f00a937dd9e27e2d722bdc87d93344c37a03d5a7515.png" title="Enviar correo" width="1034"/>
+                <img src="3245a0c22e7bd71d1f71144a05dce3d6987a48c79b52be956d56876352ea398c.png" title="Enviar correo" width="1034"/>
+                <img src="84cab889654085cdea170d804a7a4680ba587acc4e8f66a6ec6fafe1dcae74f2.png" title="Ver mensaje enviado" width="1034"/>
+                <img src="37e8dec8250af6125b7bfaf129a66eb725fa4cd6156198fd791b0c0d8b1f95d2.png" title="Ver mensaje enviado" width="1034"/>
+                <img src="37e8dec8250af6125b7bfaf129a66eb725fa4cd6156198fd791b0c0d8b1f95d2.png" title="Cerrar sesion" width="1034"/>
+                <img src="f618ade520f94b12be9df0967341c9273ffeae595cc14bd615c4553a6f744ccf.png" title="Entonces Deberia poder ver en la cuenta pruebadestinatario@gmail.com con pass testingsura el correo con remitente pruebascaoliva@gmail.com asunto Prueba 2 y contenido 2 Prueba que pasaria" width="1034"/>
+                <img src="0ca0af9b71810093f06ea4237b8ec674e86e3cf2692be59784d80dd4d1e86dc2.png" title="Abrir bandeja de entrada: pruebadestinatario@gmail.com, testingsura" width="1034"/>
+                <img src="6113f265c4cc8b80242c2f43fd350d28a65da0fc1421ecdf6e0779134c01e209.png" title="Abrir bandeja de entrada: pruebadestinatario@gmail.com, testingsura" width="1034"/>
+                <img src="01857c10c2a5ecf2c952f754da0a1b49eab1de39bf4f6399d984fe7c655fdedb.png" title="Revisar correo recibido: pruebascaoliva@gmail.com, Prueba 2, 2 Prueba que pasaria" width="1034"/>
+                <img src="f618ade520f94b12be9df0967341c9273ffeae595cc14bd615c4553a6f744ccf.png" title="Revisar correo recibido: pruebascaoliva@gmail.com, Prueba 2, 2 Prueba que pasaria" width="1034"/>
+                <img src="45722ac975625aaf3226628ff7556bde9fd5a6cc027280040a8dc3ec755ca965.png" title=": Enviando un correo en Gmail #3: {remitente=pruebascaoliva@gmail.com, passRemitente=testingsura, destinatario=pruebadestinatario@gmail.com, asunto=Prueba 3, contenido=3 Prueba que pasaria, passDestino=testingsura}" width="1034"/>
+                <img src="dff01b4dd783b6b04b46509015144acfba77b9481388f09af304f6d4a306ceb3.png" title="Dado Estoy en la bandeja de entrada de Gmail con usuario pruebascaoliva@gmail.com y contrasena testingsura" width="1034"/>
+                <img src="4ec5ed301c1ab64b88789e98e69ded45c0412263f2d7f7abb0684dce5ffd6dae.png" title="Abrir bandeja de entrada: pruebascaoliva@gmail.com, testingsura" width="1034"/>
+                <img src="4cf684fbf369b43fdb545714dff0a51cfba193bec174095604f28c43f0e4a99a.png" title="Abrir bandeja de entrada: pruebascaoliva@gmail.com, testingsura" width="1034"/>
+                <img src="4698c3e89cf959492056b4cfaec1f4434f5cc2c5c616997ce910cae098d63f01.png" title="Cuando Redacto un correo para pruebadestinatario@gmail.com con asunto Prueba 3 y contenido 3 Prueba que pasaria" width="1034"/>
+                <img src="8ecc269417b52ac39a95bdb1533bd9a83052490585e8bc6771be0b6e8412be5c.png" title="Cuando Redacto un correo para pruebadestinatario@gmail.com con asunto Prueba 3 y contenido 3 Prueba que pasaria" width="1034"/>
+                <img src="4698c3e89cf959492056b4cfaec1f4434f5cc2c5c616997ce910cae098d63f01.png" title="Redactar correo: pruebadestinatario@gmail.com, Prueba 3, 3 Prueba que pasaria" width="1034"/>
+                <img src="8ecc269417b52ac39a95bdb1533bd9a83052490585e8bc6771be0b6e8412be5c.png" title="Redactar correo: pruebadestinatario@gmail.com, Prueba 3, 3 Prueba que pasaria" width="1034"/>
+                <img src="6a718b6dcbfbd4488fe80416ef723d4d342d79f7eef58c1281bf56fb2ea8d6b0.png" title="Entonces Deberia poder enviar mi correo" width="1034"/>
+                <img src="6a718b6dcbfbd4488fe80416ef723d4d342d79f7eef58c1281bf56fb2ea8d6b0.png" title="Enviar correo" width="1034"/>
+                <img src="b67c5726379c49f32c544f82221bd723aa2b79b2a1c1f290ab137eb43162b67c.png" title="Enviar correo" width="1034"/>
+                <img src="b67c5726379c49f32c544f82221bd723aa2b79b2a1c1f290ab137eb43162b67c.png" title="Ver mensaje enviado" width="1034"/>
+                <img src="d333f39257349bfb8539016ef43ac917f7af7fa16daa71cc13b4f53bfbc9bbf2.png" title="Ver mensaje enviado" width="1034"/>
+                <img src="d333f39257349bfb8539016ef43ac917f7af7fa16daa71cc13b4f53bfbc9bbf2.png" title="Cerrar sesion" width="1034"/>
+                <img src="45722ac975625aaf3226628ff7556bde9fd5a6cc027280040a8dc3ec755ca965.png" title="Entonces Deberia poder ver en la cuenta pruebadestinatario@gmail.com con pass testingsura el correo con remitente pruebascaoliva@gmail.com asunto Prueba 3 y contenido 3 Prueba que pasaria" width="1034"/>
+                <img src="c1c22f847e8316162806532876722ab8990731aa3d2fdbe55e3aef35c265647b.png" title="Abrir bandeja de entrada: pruebadestinatario@gmail.com, testingsura" width="1034"/>
+                <img src="358e5373cedb429632e8b806863e6ebea191d6e04a30bef7d7e7de3d01fd6acf.png" title="Abrir bandeja de entrada: pruebadestinatario@gmail.com, testingsura" width="1034"/>
+                <img src="5a4b3f1e5bc0887a18163d52dd5f6f5d8cbe5b94fd7998f58459a7dce6a6466f.png" title="Revisar correo recibido: pruebascaoliva@gmail.com, Prueba 3, 3 Prueba que pasaria" width="1034"/>
+                <img src="45722ac975625aaf3226628ff7556bde9fd5a6cc027280040a8dc3ec755ca965.png" title="Revisar correo recibido: pruebascaoliva@gmail.com, Prueba 3, 3 Prueba que pasaria" width="1034"/>
+                <img src="674ccac9014c19e9b59e822aaadb65320c05dade94089100d46c10b753312480.png" title=": Enviando un correo en Gmail #4: {remitente=pruebascaoliva@gmail.com, passRemitente=testingsura, destinatario=pruebadestinatario@gmail.com, asunto=Prueba 4, contenido=4 Prueba que pasaria, passDestino=testingsura}" width="1034"/>
+                <img src="39efc3d98bdd344229f35a1e747a5b8d0d3fdaca16a596b1ac0cb7218a2daf66.png" title="Dado Estoy en la bandeja de entrada de Gmail con usuario pruebascaoliva@gmail.com y contrasena testingsura" width="1034"/>
+                <img src="6dd5e737679365743823c50f4ff0542271d6065929e3cd5c038775c5e07dd25f.png" title="Abrir bandeja de entrada: pruebascaoliva@gmail.com, testingsura" width="1034"/>
+                <img src="9b809d641b228b9d2884c3b307f0c3ca575a6951411ec4b230c4a4fb70b3c70a.png" title="Abrir bandeja de entrada: pruebascaoliva@gmail.com, testingsura" width="1034"/>
+                <img src="a515545622d87d575e4f0deb2ef0283739918cb95c0c161b3426d8d51b5710b4.png" title="Cuando Redacto un correo para pruebadestinatario@gmail.com con asunto Prueba 4 y contenido 4 Prueba que pasaria" width="1034"/>
+                <img src="2657d1246856b9773eb10c4117d9260cded1386f166fde22365427a169069308.png" title="Cuando Redacto un correo para pruebadestinatario@gmail.com con asunto Prueba 4 y contenido 4 Prueba que pasaria" width="1034"/>
+                <img src="6cd7bd72cebf446afbbf87eda3929eaecc1cccf6550786b6a692dcf4f58f821e.png" title="Redactar correo: pruebadestinatario@gmail.com, Prueba 4, 4 Prueba que pasaria" width="1034"/>
+                <img src="2657d1246856b9773eb10c4117d9260cded1386f166fde22365427a169069308.png" title="Redactar correo: pruebadestinatario@gmail.com, Prueba 4, 4 Prueba que pasaria" width="1034"/>
+                <img src="309ae6f6e0c78e9eee81f2590214d67a72c49308627e49967d27bb0dc34b239c.png" title="Entonces Deberia poder enviar mi correo" width="1034"/>
+                <img src="5fcc1f2a09b86e9c29d201d0b9b80b895d17237c3311f9df2202b255cb89497d.png" title="Entonces Deberia poder enviar mi correo" width="1034"/>
+                <img src="309ae6f6e0c78e9eee81f2590214d67a72c49308627e49967d27bb0dc34b239c.png" title="Enviar correo" width="1034"/>
+                <img src="84cab889654085cdea170d804a7a4680ba587acc4e8f66a6ec6fafe1dcae74f2.png" title="Enviar correo" width="1034"/>
+                <img src="84cab889654085cdea170d804a7a4680ba587acc4e8f66a6ec6fafe1dcae74f2.png" title="Ver mensaje enviado" width="1034"/>
+                <img src="565e7ff9eeef97c8856b5b0c44ba32fb9f5c1cfb7e46a1c8cf3b6d7427d915cb.png" title="Ver mensaje enviado" width="1034"/>
+                <img src="565e7ff9eeef97c8856b5b0c44ba32fb9f5c1cfb7e46a1c8cf3b6d7427d915cb.png" title="Cerrar sesion" width="1034"/>
+                <img src="5fcc1f2a09b86e9c29d201d0b9b80b895d17237c3311f9df2202b255cb89497d.png" title="Cerrar sesion" width="1034"/>
+                <img src="8b3ddc9fedea593adb7903026ffae0fcea6c59caf8544b8bf3d8e6120a520b6c.png" title="Entonces Deberia poder ver en la cuenta pruebadestinatario@gmail.com con pass testingsura el correo con remitente pruebascaoliva@gmail.com asunto Prueba 4 y contenido 4 Prueba que pasaria" width="1034"/>
+                <img src="674ccac9014c19e9b59e822aaadb65320c05dade94089100d46c10b753312480.png" title="Entonces Deberia poder ver en la cuenta pruebadestinatario@gmail.com con pass testingsura el correo con remitente pruebascaoliva@gmail.com asunto Prueba 4 y contenido 4 Prueba que pasaria" width="1034"/>
+                <img src="fa20456219a875564150982e9869fdab8cf7695c14c6b270dec7e9e91062ed81.png" title="Abrir bandeja de entrada: pruebadestinatario@gmail.com, testingsura" width="1034"/>
+                <img src="484ac5cce14d515fcbdff9eee2d74d7f8385860fa107fdd5ae31b8c3d04b30c2.png" title="Abrir bandeja de entrada: pruebadestinatario@gmail.com, testingsura" width="1034"/>
+                <img src="99c7dc4c16ef772d86a90639270ce93da9cdaa66cd253e82ef15ff9d712f4fdd.png" title="Revisar correo recibido: pruebascaoliva@gmail.com, Prueba 4, 4 Prueba que pasaria" width="1034"/>
+                <img src="674ccac9014c19e9b59e822aaadb65320c05dade94089100d46c10b753312480.png" title="Revisar correo recibido: pruebascaoliva@gmail.com, Prueba 4, 4 Prueba que pasaria: <span class='success-color'>SUCCESS</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>

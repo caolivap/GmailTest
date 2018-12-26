@@ -2,37 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63144984-28d5-4122-a0a3-fdfe0d52c4b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileContent/annotation-processors.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/com.TestingGmail-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/com.TestingGmail-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Enviar#20correo.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Enviar#20correo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/features.RunnerTestAceptacion.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/features.RunnerTestAceptacion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/EnviarCorreo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/EnviarCorreo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Enviar#20correo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Enviar#20correo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-features.RunnerTestAceptacion.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-features.RunnerTestAceptacion.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/features/RunnerTestAceptacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/features/RunnerTestAceptacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/steps/EnviarCorreoStepsDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/steps/EnviarCorreoStepsDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/steps/userSteps/GmailUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/steps/userSteps/GmailUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ui/GmailPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ui/GmailPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/features/EnviarCorreo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/features/EnviarCorreo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/RunnerTestAceptacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/RunnerTestAceptacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/EnviarCorreoStepsDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/EnviarCorreoStepsDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/userSteps/GmailUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/userSteps/GmailUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ui/GmailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/GmailPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/EnviarCorreo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/EnviarCorreo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1a101b9362f1a1e4811c3d9568eea36a2fd147224c36cd6c61a580df5753df0b.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1a101b9362f1a1e4811c3d9568eea36a2fd147224c36cd6c61a580df5753df0b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1bc5cdcab8cf1cfdb9a238afa1dc520f8bac61466e2f7cb4aa95964192ef4bfd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1bc5cdcab8cf1cfdb9a238afa1dc520f8bac61466e2f7cb4aa95964192ef4bfd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1bc5cdcab8cf1cfdb9a238afa1dc520f8bac61466e2f7cb4aa95964192ef4bfd.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1bc5cdcab8cf1cfdb9a238afa1dc520f8bac61466e2f7cb4aa95964192ef4bfd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3ddf6f4d8582a4ce3fe94c73c364189a0e535c0c6ee3eb19caf34d9e6e76c786.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3ddf6f4d8582a4ce3fe94c73c364189a0e535c0c6ee3eb19caf34d9e6e76c786.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3ddf6f4d8582a4ce3fe94c73c364189a0e535c0c6ee3eb19caf34d9e6e76c786.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3ddf6f4d8582a4ce3fe94c73c364189a0e535c0c6ee3eb19caf34d9e6e76c786.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7d377dd9201fe0ac6c0647886792ccc200afe55a08ea5fe7f267281d6f5a3a0a.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7d377dd9201fe0ac6c0647886792ccc200afe55a08ea5fe7f267281d6f5a3a0a.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/916fd75f680ac1f0a176260538a7e239c36e86b97d85ee43e26595d2372a1183.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/916fd75f680ac1f0a176260538a7e239c36e86b97d85ee43e26595d2372a1183.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1bc5cdcab8cf1cfdb9a238afa1dc520f8bac61466e2f7cb4aa95964192ef4bfd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1bc5cdcab8cf1cfdb9a238afa1dc520f8bac61466e2f7cb4aa95964192ef4bfd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c2af6618922e0c4a35ce518aedc1fb823136d7ac8b697877798c3c7af972cd41.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c2af6618922e0c4a35ce518aedc1fb823136d7ac8b697877798c3c7af972cd41.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c2af6618922e0c4a35ce518aedc1fb823136d7ac8b697877798c3c7af972cd41.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c2af6618922e0c4a35ce518aedc1fb823136d7ac8b697877798c3c7af972cd41.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -47,7 +71,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/com_TestingGmail$RunnerTestAceptacion.ic" NAME="RunnerTestAceptacion Coverage Results" MODIFIED="1545141331087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/com_TestingGmail$RunnerTestAceptacion.ic" NAME="RunnerTestAceptacion Coverage Results" MODIFIED="1545169635291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>features.*</FILTER>
     </SUITE>
   </component>
@@ -59,25 +83,80 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="com.TestingGmail" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="com.TestingGmail" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/EnviarCorreo.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="272">
+              <caret line="16" column="133" selection-start-line="16" selection-start-column="133" selection-end-line="16" selection-end-column="133" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/EnviarCorreo.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ui/GmailPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="102">
+              <caret line="27" column="95" selection-start-line="27" selection-start-column="95" selection-end-line="27" selection-end-column="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4032#4033#0" expanded="true" />
+                <element signature="e#4068#4069#0" expanded="true" />
+                <element signature="e#4505#4513#0" expanded="true" />
+                <element signature="e#6639#6647#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/site/serenity/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#1;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,41 +164,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/EnviarCorreoStepsDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-cucumber/1.9.4/4d3ef551da1944838dae203ee32466000796345/serenity-cucumber-1.9.4-sources.jar!/cucumber/runtime/formatter/SerenityReporter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="377" selection-start-line="377" selection-end-line="377" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/RunnerTestAceptacion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ui/GmailPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="-236">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,10 +176,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/userSteps/GmailUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="68">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,6 +201,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>index</find>
+      <find>index.html</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\Usuarios\carlolpa\Desktop\com.TestingGmail\target\site\serenity</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -160,17 +222,18 @@
         <option value="$PROJECT_DIR$/src/test/java/EnviarCorreoStepsDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/EnviarCorreo.features" />
         <option value="$PROJECT_DIR$/src/test/java/ui/GmailHomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/EnviarCorreoStepsDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/EnviarCorreo.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/features/RunnerTestAceptacion.java" />
         <option value="$PROJECT_DIR$/build/reports/tests/test/index.html" />
+        <option value="$PROJECT_DIR$/src/test/java/features/RunnerTestAceptacion.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/serenity.properties" />
         <option value="$PROJECT_DIR$/src/test/java/steps/userSteps/GmailUser.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/EnviarCorreo.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/EnviarCorreoStepsDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/GmailPage.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -182,8 +245,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,24 +278,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.TestingGmail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.TestingGmail" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.TestingGmail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.TestingGmail" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-              <item name="userSteps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com.TestingGmail" type="b2602c69:ProjectViewProjectNode" />
@@ -260,6 +306,24 @@
             <path>
               <item name="com.TestingGmail" type="b2602c69:ProjectViewProjectNode" />
               <item name="com.TestingGmail" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.TestingGmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.TestingGmail" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.TestingGmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.TestingGmail" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="serenity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.TestingGmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.TestingGmail" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="TestingGmail" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -269,8 +333,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545166208710" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Selenium WebDriver/selenium-java-3.141.59.zip!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545843237901" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/suracore-bddcoresuraejemplos-b1fa966931d7" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -359,7 +423,7 @@
       <method v="2" />
     </configuration>
     <configuration name="RunnerTestAceptacion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingGmail.com.TestingGmail.test" />
+      <module name="com.TestingGmail" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="features.*" />
@@ -368,6 +432,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="features" />
       <option name="MAIN_CLASS_NAME" value="features.RunnerTestAceptacion" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerTestAceptacion" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="com.TestingGmail.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="features" />
+      <option name="MAIN_CLASS_NAME" value="features.RunnerTestAceptacion" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -389,18 +471,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber java.Scenario: : Enviando un correo en Gmail" />
       <item itemvalue="Gradle.com.TestingGmail [dependencies]" />
       <item itemvalue="Gradle.com.TestingGmail [test aggregate]" />
       <item itemvalue="JUnit.RunnerTestAceptacion" />
-      <item itemvalue="Cucumber java.Scenario: : Enviando un correo en Gmail" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: : Enviando un correo en Gmail" />
         <item itemvalue="Gradle.com.TestingGmail [test aggregate]" />
+        <item itemvalue="Cucumber java.Scenario: : Enviando un correo en Gmail" />
+        <item itemvalue="JUnit.RunnerTestAceptacion" />
+        <item itemvalue="JUnit.RunnerTestAceptacion" />
         <item itemvalue="Gradle.com.TestingGmail [dependencies]" />
-        <item itemvalue="JUnit.RunnerTestAceptacion" />
-        <item itemvalue="JUnit.RunnerTestAceptacion" />
       </list>
     </recent_temporary>
   </component>
@@ -418,42 +500,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.18 at 14h 56m 33s.xml">
+    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.26 at 11h 05m 43s.xml">
       <configuration name="com.TestingGmail [test aggregate]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.18 at 15h 02m 13s.xml">
+    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.26 at 11h 11m 01s.xml">
       <configuration name="com.TestingGmail [test aggregate]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.18 at 15h 02m 39s.xml">
+    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.26 at 11h 16m 06s.xml">
       <configuration name="com.TestingGmail [test aggregate]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.18 at 15h 15m 35s.xml">
+    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.26 at 11h 18m 46s.xml">
       <configuration name="com.TestingGmail [test aggregate]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.18 at 15h 20m 24s.xml">
+    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.26 at 11h 27m 56s.xml">
       <configuration name="com.TestingGmail [test aggregate]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.18 at 15h 22m 17s.xml">
+    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.26 at 11h 28m 30s.xml">
       <configuration name="com.TestingGmail [test aggregate]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.18 at 15h 26m 37s.xml">
+    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.26 at 11h 29m 27s.xml">
       <configuration name="com.TestingGmail [test aggregate]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Scenario____Enviando_un_correo_en_Gmail - 2018.12.18 at 15h 29m 07s.xml">
-      <configuration name="Scenario: : Enviando un correo en Gmail" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.26 at 11h 31m 17s.xml">
+      <configuration name="com.TestingGmail [test aggregate]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Scenario____Enviando_un_correo_en_Gmail - 2018.12.18 at 15h 36m 55s.xml">
-      <configuration name="Scenario: : Enviando un correo en Gmail" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.26 at 11h 34m 22s.xml">
+      <configuration name="com.TestingGmail [test aggregate]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.18 at 15h 38m 22s.xml">
+    <history-entry file="com_TestingGmail_[test_aggregate] - 2018.12.26 at 11h 38m 42s.xml">
       <configuration name="com.TestingGmail [test aggregate]" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49880096" visible="true" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49880096" visible="true" weight="0.28517398" />
       <window_info id="Structure" order="1" sideWeight="0.50119907" side_tool="true" weight="0.25718608" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -462,175 +553,439 @@
       <window_info id="Favorites" order="6" sideWeight="0.50119907" side_tool="true" weight="0.25718608" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32850242" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32850242" />
       <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49924356" weight="0.32850242" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32980332" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
     </layout>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/features/enviar/enviarCorreo.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/enviar.features" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/EnviarCorreoStepsDefinitions2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/EnviarCorreoStepsDefinitions.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-core/1.1.1/92bb01b95ec7b56fc805d074e321c09f5fd5a694/serenity-core-1.1.1-sources.jar!/net/serenitybdd/core/pages/PageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="724" column="22" selection-start-line="724" selection-start-column="22" selection-end-line="724" selection-end-column="22" />
-          <folding>
-            <element signature="e#26101#26102#0" expanded="true" />
-            <element signature="e#26150#26151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-java/4.2.0/832385363c0a6067228a64f989d34cf99add3a9f/cucumber-java-4.2.0-sources.jar!/cucumber/api/java/es/Cuando.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-java/4.2.0/832385363c0a6067228a64f989d34cf99add3a9f/cucumber-java-4.2.0-sources.jar!/cucumber/api/java/es/Entonces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.46.0/e8f44260875ed26ed680c466ac118b035e9004d/selenium-api-2.46.0-sources.jar!/org/openqa/selenium/WebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2013">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-junit/1.1.1/5af3b4ba3b9efc6e4d01d7bb798f1440e81f599b/serenity-junit-1.1.1-sources.jar!/net/serenitybdd/junit/runners/SerenityRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="159" selection-start-line="159" selection-end-line="159" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-cucumber/1.9.16/c329b7533d98380fe70e49b98050c2142a74dd57/serenity-cucumber-1.9.16-sources.jar!/net/serenitybdd/cucumber/CucumberWithSerenity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="1824" selection-start-line="1824" selection-end-line="1824" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-core/1.9.6/4af87f94fcfa9cb4c3f19a1a7b0957a1a4ec7960/serenity-core-1.9.6-sources.jar!/net/serenitybdd/core/webdriver/servicepools/DriverServiceExecutable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="-41">
+          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/NullPointerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/RunnerTestAceptacion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outcomes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-core/1.2.4/8f968da4ddb2ef34cf340be0e39736be1e7647a8/cucumber-core-1.2.4-sources.jar!/cucumber/runtime/Reflections.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-junit/2.3.1/f41c1904a69967e1762c69c4e9bbd732e081dedc/cucumber-junit-2.3.1-sources.jar!/cucumber/api/junit/Cucumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.2.0/2dd88e43460d3d17ca4fd404dd37acb4c3384872/cucumber-core-4.2.0-sources.jar!/cucumber/runtime/Reflections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-cucumber/1.9.4/4d3ef551da1944838dae203ee32466000796345/serenity-cucumber-1.9.4-sources.jar!/cucumber/runtime/formatter/SerenityReporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="377" selection-start-line="377" selection-end-line="377" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/EnviarCorreo.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/EnviarCorreoStepsDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="107">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4878#4879#0" expanded="true" />
+            <element signature="e#4913#4914#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.5/cglib-3.2.5.jar!/net/sf/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-core/1.9.6/4af87f94fcfa9cb4c3f19a1a7b0957a1a4ec7960/serenity-core-1.9.6-sources.jar!/net/thucydides/core/steps/StepInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/2.3.1/3c335ea3d8f18c0e0daeeef07ca2225b87b5f0c9/cucumber-core-2.3.1-sources.jar!/cucumber/runtime/Timeout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="287" selection-start-line="287" selection-end-line="287" />
+          <folding>
+            <element signature="e#2922#2923#0" expanded="true" />
+            <element signature="e#2966#2967#0" expanded="true" />
+            <element signature="e#11040#11204#0" expanded="true" />
+            <element signature="e#11203#11204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-junit/2.3.1/f41c1904a69967e1762c69c4e9bbd732e081dedc/cucumber-junit-2.3.1-sources.jar!/cucumber/runtime/junit/FeatureRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#2187#2188#0" expanded="true" />
+            <element signature="e#2222#2223#0" expanded="true" />
+            <element signature="e#2281#2282#0" expanded="true" />
+            <element signature="e#2316#2317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-junit/2.3.1/f41c1904a69967e1762c69c4e9bbd732e081dedc/cucumber-junit-2.3.1-sources.jar!/cucumber/runtime/junit/PickleRunners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/2.3.1/3c335ea3d8f18c0e0daeeef07ca2225b87b5f0c9/cucumber-core-2.3.1-sources.jar!/cucumber/runner/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/2.3.1/3c335ea3d8f18c0e0daeeef07ca2225b87b5f0c9/cucumber-core-2.3.1-sources.jar!/cucumber/api/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/2.3.1/3c335ea3d8f18c0e0daeeef07ca2225b87b5f0c9/cucumber-core-2.3.1-sources.jar!/cucumber/api/TestStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/2.3.1/3c335ea3d8f18c0e0daeeef07ca2225b87b5f0c9/cucumber-core-2.3.1-sources.jar!/cucumber/runtime/StepDefinitionMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-java/2.3.1/bd63e19ade2de7ab9848dc40a6ab0008531704bf/cucumber-java-2.3.1-sources.jar!/cucumber/runtime/java/JavaStepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/2.3.1/3c335ea3d8f18c0e0daeeef07ca2225b87b5f0c9/cucumber-core-2.3.1-sources.jar!/cucumber/runtime/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#990#2100#0" expanded="true" />
+            <element signature="e#2099#2100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="579" column="22" selection-start-line="579" selection-start-column="22" selection-end-line="579" selection-end-column="22" />
+          <folding>
+            <element signature="e#26957#26958#0" expanded="true" />
+            <element signature="e#27022#27023#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-core/1.9.6/4af87f94fcfa9cb4c3f19a1a7b0957a1a4ec7960/serenity-core-1.9.6-sources.jar!/net/serenitybdd/core/pages/WebElementFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-191">
+          <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-395">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-core/1.9.6/4af87f94fcfa9cb4c3f19a1a7b0957a1a4ec7960/serenity-core-1.9.6-sources.jar!/net/serenitybdd/core/pages/WebElementFacadeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="1102" selection-start-line="1102" selection-end-line="1102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-core/1.9.6/4af87f94fcfa9cb4c3f19a1a7b0957a1a4ec7960/serenity-core-1.9.6-sources.jar!/net/thucydides/core/webdriver/WebDriverFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.10.0/7e93a87a4d1a1fe9fbcbf7d4f8cc6ab263c37aae/selenium-api-3.10.0-sources.jar!/org/openqa/selenium/By.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="429" selection-start-line="429" selection-end-line="429" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.10.0/5d2b6d4e74a8e2904beb39e37ba2fba95f36cbfc/selenium-remote-driver-3.10.0-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="464" selection-start-line="464" selection-end-line="464" />
+          <folding>
+            <element signature="e#13071#13072#0" expanded="true" />
+            <element signature="e#13108#13109#0" expanded="true" />
+            <element signature="e#16371#16372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.9.1/7539531ecf9b6e082fcab195f0835d4f69ead95e/okhttp-3.9.1-sources.jar!/okhttp3/RealCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.9.1/7539531ecf9b6e082fcab195f0835d4f69ead95e/okhttp-3.9.1-sources.jar!/okhttp3/internal/http/RetryAndFollowUpInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.9.1/7539531ecf9b6e082fcab195f0835d4f69ead95e/okhttp-3.9.1-sources.jar!/okhttp3/internal/http/BridgeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.9.1/7539531ecf9b6e082fcab195f0835d4f69ead95e/okhttp-3.9.1-sources.jar!/okhttp3/internal/cache/CacheInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.9.1/7539531ecf9b6e082fcab195f0835d4f69ead95e/okhttp-3.9.1-sources.jar!/okhttp3/internal/connection/ConnectInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.9.1/7539531ecf9b6e082fcab195f0835d4f69ead95e/okhttp-3.9.1-sources.jar!/okhttp3/internal/http/RealInterceptorChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.9.1/7539531ecf9b6e082fcab195f0835d4f69ead95e/okhttp-3.9.1-sources.jar!/okhttp3/internal/http/CallServerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.9.1/7539531ecf9b6e082fcab195f0835d4f69ead95e/okhttp-3.9.1-sources.jar!/okhttp3/internal/http1/Http1Codec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="211" selection-start-line="211" selection-end-line="211" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/f4c91e12121af963e3ef76e81c82aa75ba6e8533/okio-1.13.0-sources.jar!/okio/RealBufferedSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="344" selection-start-line="344" selection-end-line="344" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/f4c91e12121af963e3ef76e81c82aa75ba6e8533/okio-1.13.0-sources.jar!/okio/AsyncTimeout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/f4c91e12121af963e3ef76e81c82aa75ba6e8533/okio-1.13.0-sources.jar!/okio/Okio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.10.0/7e93a87a4d1a1fe9fbcbf7d4f8cc6ab263c37aae/selenium-api-3.10.0-sources.jar!/org/openqa/selenium/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.10.0/7e93a87a4d1a1fe9fbcbf7d4f8cc6ab263c37aae/selenium-api-3.10.0-sources.jar!/org/openqa/selenium/WebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313">
+          <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/serenity/pagesource3536305778429926887.html.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="42" column="442" selection-start-line="42" selection-start-column="442" selection-end-line="42" selection-end-column="442" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/userSteps/GmailUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="68">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/EnviarCorreoStepsDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/GmailPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="27" column="95" selection-start-line="27" selection-start-column="95" selection-end-line="27" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4032#4033#0" expanded="true" />
+            <element signature="e#4068#4069#0" expanded="true" />
+            <element signature="e#4505#4513#0" expanded="true" />
+            <element signature="e#6639#6647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/EnviarCorreo.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="133" selection-start-line="16" selection-start-column="133" selection-end-line="16" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/target/site/serenity/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="13" column="72" lean-forward="true" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+        <state relative-caret-position="122">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
           <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#br#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#10059#10065#0" expanded="true" />
-            <element signature="e#10119#10125#0" expanded="true" />
-            <element signature="e#10187#10193#0" expanded="true" />
-            <element signature="e#10256#10262#0" expanded="true" />
-            <element signature="e#11473#11479#1" expanded="true" />
             <element signature="n#style#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -638,37 +993,13 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#15898#15904#0" expanded="true" />
-            <element signature="e#15958#15964#0" expanded="true" />
-            <element signature="e#16026#16032#0" expanded="true" />
-            <element signature="e#16095#16101#0" expanded="true" />
-            <element signature="e#17312#17318#1" expanded="true" />
             <element signature="n#style#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#1;n#tr#1;n#table#1;n#div#1;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#21113#21119#1" expanded="true" />
             <element signature="n#style#0;n#span#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#1;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#22282#22288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/GmailPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

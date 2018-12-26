@@ -1,0 +1,105 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": ": Enviando un correo en Gmail",
+        "description": "",
+        "id": "enviar-correo;:-enviando-un-correo-en-gmail;:;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Estoy en la bandeja de entrada de Gmail con mi ab y hola",
+            "match": {},
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Redacto un correo con olivacarlos92@gmail.com Prueba y usuario y pass malo",
+            "match": {},
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Deberia poder enviar mi correo",
+            "match": {},
+            "keyword": "Entonces "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Deberia ver el mensaje de correo enviado",
+            "match": {},
+            "keyword": "Entonces "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": ": Enviando un correo en Gmail",
+        "description": "",
+        "id": "enviar-correo;:-enviando-un-correo-en-gmail;:;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Estoy en la bandeja de entrada de Gmail con mi pruebascaoliva y testingsura",
+            "match": {},
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Redacto un correo con olivacarlos92@gmail.com Prueba y Prueba que pasaria",
+            "match": {},
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Deberia poder enviar mi correo",
+            "match": {},
+            "keyword": "Entonces "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Deberia ver el mensaje de correo enviado",
+            "match": {},
+            "keyword": "Entonces "
+          }
+        ]
+      }
+    ],
+    "name": "Enviar correo",
+    "description": "  Para comunicarme con mis contactos de correo electronico\n  Como usuario de Gmail\n  Quiero enviar correos electronicos",
+    "id": "enviar-correo",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/EnviarCorreo.feature",
+    "tags": []
+  }
+]

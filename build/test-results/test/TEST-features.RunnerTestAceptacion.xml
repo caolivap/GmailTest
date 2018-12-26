@@ -2,49 +2,9 @@
 <testsuite name="features.RunnerTestAceptacion" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="PVID3DN8RN2" time="0.0">
   <properties/>
   <system-out><![CDATA[
-2 Scenarios (?[33m2 undefined?[0m)
-8 Steps (?[33m8 undefined?[0m)
-0m1,292s
-
-
-You can implement missing steps with the snippets below:
-
-
-@Dado("^Estoy en la bandeja de entrada de Gmail con mi ab y hola$")
-public void estoy_en_la_bandeja_de_entrada_de_Gmail_con_mi_ab_y_hola() throws Exception {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-@Cuando("^Redacto un correo con olivacarlos(\\d+)@gmail\\.com Prueba y usuario y pass malo$")
-public void redacto_un_correo_con_olivacarlos_gmail_com_Prueba_y_usuario_y_pass_malo(int arg1) throws Exception {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-@Entonces("^Deberia poder enviar mi correo$")
-public void deberia_poder_enviar_mi_correo() throws Exception {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-@Entonces("^Deberia ver el mensaje de correo enviado$")
-public void deberia_ver_el_mensaje_de_correo_enviado() throws Exception {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-@Dado("^Estoy en la bandeja de entrada de Gmail con mi pruebascaoliva y testingsura$")
-public void estoy_en_la_bandeja_de_entrada_de_Gmail_con_mi_pruebascaoliva_y_testingsura() throws Exception {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-@Cuando("^Redacto un correo con olivacarlos(\\d+)@gmail\\.com Prueba y Prueba que pasaria$")
-public void redacto_un_correo_con_olivacarlos_gmail_com_Prueba_y_Prueba_que_pasaria(int arg1) throws Exception {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
+4 Scenarios (?[32m4 passed?[0m)
+16 Steps (?[32m16 passed?[0m)
+4m14,282s
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.serenitybdd.core.Serenity - ?[36m
@@ -76,24 +36,44 @@ public void redacto_un_correo_con_olivacarlos_gmail_com_Prueba_y_Prueba_que_pasa
 TEST STARTED: : Enviando un correo en Gmail
 -------------------------------------------------------------------(enviar-correo;:-enviando-un-correo-en-gmail)
 [Test worker] INFO net.serenitybdd.core.Serenity - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
 
-TEST PENDING: : Enviando un correo en Gmail
----------------------------------------------------------------------------------
+TEST PASSED: : Enviando un correo en Gmail
+----------------------------------------------------------------------------
 [Test worker] INFO net.serenitybdd.core.Serenity - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
 
-TEST PENDING: : Enviando un correo en Gmail
----------------------------------------------------------------------------------
+TEST PASSED: : Enviando un correo en Gmail
+----------------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: : Enviando un correo en Gmail
+----------------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: : Enviando un correo en Gmail
+----------------------------------------------------------------------------
 ]]></system-err>
 </testsuite>

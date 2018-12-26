@@ -1,16 +1,17 @@
 # language: es
 Característica: Enviar correo
+  Antecedentes:
   Para comunicarme con mis contactos de correo electronico
   Como usuario de Gmail
   Quiero enviar correos electronicos
-
   Esquema del escenario: : Enviando un correo en Gmail
-    Dado Estoy en la bandeja de entrada de Gmail con mi <username> y <pass>
-    Cuando Redacto un correo con <destinatario> <asunto> y <contenido>
+    Dado Estoy en la bandeja de entrada de Gmail con usuario <remitente> y contrasena <passRemitente>
+    Cuando Redacto un correo para <destinatario> con asunto <asunto> y contenido <contenido>
     Entonces Deberia poder enviar mi correo
-    Entonces Deberia ver el mensaje de correo enviado
+    Entonces Deberia poder ver en la cuenta <destinatario> con pass <passDestino> el correo con remitente <remitente> asunto <asunto> y contenido <contenido>
     Ejemplos: :
-  | username        | pass        | destinatario            | asunto | contenido           |
-  | ab              | hola        | olivacarlos92@gmail.com | Prueba | usuario y pass malo |
-  | pruebascaoliva  | testingsura | olivacarlos92@gmail.com | Prueba | Prueba que pasaria  |
+  | remitente                   | passRemitente | destinatario                  | asunto | contenido           |  passDestino |
+  | pruebascaoliva@gmail.com    | testingsura   | pruebadestinatario@gmail.com  | Prueba | Prueba que pasaria  |  testingsura |
+  | ab                          | hola          | pruebadestinatario@gmail.com  | Prueba | usuario y pass malo |  testingsura |
+
 
