@@ -25,7 +25,7 @@ public class GmailPage extends PageObject {
 
     //Usuario y contrasena
     public static String formUserName = "#identifierId";
-    public static String formPass = ".Xb9hP input[name = 'password']"; //"input[name=password";
+    public static String formPass = ".Xb9hP input[name = 'password']";
 
     //Contenido del correo electronico
     public static String destinatarioBox = "div.wO.nr.l1>[name = to]";
