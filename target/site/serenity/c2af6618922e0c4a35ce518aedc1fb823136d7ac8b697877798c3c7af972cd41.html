@@ -53,7 +53,7 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 1],
+                ['Passing', 0.5],
                 
                 ['Pending', 0],
                 
@@ -61,7 +61,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors',  0],
+                ['Errors',  0.5],
                 ['Compromised',  0]
             ]
         ], {
@@ -92,18 +92,18 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '4 / 4 tests passed' },
+                {label: '2 / 4 tests passed' },
                 {label: '0 / 4 tests pending'},
                 {label: '0 / 4 tests not executed'},
                 {label: '0 / 4 tests failed'},
-                {label: '0 / 4 errors'},
+                {label: '2 / 4 errors'},
                 {label: '0 / 4 compromised tests'}
             ]
         });
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 1],
+                ['Passing', 0.5],
                 
                 ['Pending', 0],
                 
@@ -111,7 +111,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors', 0],
+                ['Errors', 0.5],
                 ['Compromised', 0],
             ]
         ], {
@@ -143,11 +143,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '4 / 4 tests passed (1% of all test steps)' },
+                {label: '2 / 4 tests passed (0.5% of all test steps)' },
                 {label: '0 / 4 tests pending'},
                 {label: '0 / 4 tests not executed'},
                 {label: '0 / 4 tests failed (0% of all test steps)'},
-                {label: '0 / 4 errors (0% of all test steps)'}
+                {label: '2 / 4 errors (0.5% of all test steps)'}
             ]
         });
 
@@ -216,7 +216,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-12-2018 08:40</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-12-2018 09:11</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -237,9 +237,19 @@
 
                     <span class="test-count"> |
                         1
-                            <a href="d80271725d0a3151fc1380972663a0508e97a97faeb990d18d4cc7969dcde5bb.html">passed</a>
+                            <a href="03f6b9fb74ed5e151a6a866cb06a56fea3b45a721e7db7b267e5db172b9ed87d.html">unsuccessful</a>
                         
+                    </span>(
+                    <span class="test-count">
+                        0
+                            <a href="835d4356a9c1d3ab748e53b25286e2e75a6db453889b0cf2b287b876f7eba447.html">failed</a>
+                        ,
                     </span>
+                    <span class="test-count">
+                        1
+                            <a href="09e1d14dff9e86d2a9bab3bd10264f028d4b79299ebc0dbc0c667314315689cf.html">with errors</a>
+                        
+                    </span>)
 
                 
 
@@ -291,8 +301,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>4</td>
-            <td>4 (100%)</td>
-            <td>0 (0%)</td>
+            <td>2 (50%)</td>
+            <td>2 (50%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -307,14 +317,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>4</td>
-            <td>4 (100%)</td>
-            <td>0 (0%)</td>
+            <td>2 (50%)</td>
+            <td>2 (50%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">3 minutes 25 seconds</td>
+                <td colspan="5">2 minutes 29 seconds</td>
         </tr>
         </body>
     </table>
@@ -337,7 +347,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <span class="caption">Test results weighted by test size in steps (average steps per test: 12) .</span>
+                                <span class="caption">Test results weighted by test size in steps (average steps per test: 9) .</span>
                                 <span class="togglePieChart" id="toggleWeightedPieChart"><a href="#">Show/Hide Pie
                                     Chart</a></span>
                             </td>
@@ -370,8 +380,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>4</td>
-            <td>4 (100%)</td>
-            <td>0 (0%)</td>
+            <td>2 (50%)</td>
+            <td>2 (50%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -386,14 +396,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>4</td>
-            <td>4 (100%)</td>
-            <td>0 (0%)</td>
+            <td>2 (50%)</td>
+            <td>2 (50%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">3 minutes 25 seconds</td>
+                <td colspan="5">2 minutes 29 seconds</td>
         </tr>
         </body>
     </table>
@@ -443,33 +453,33 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
                                     <div class="ellipsis">
 
                                         <a href="1bc5cdcab8cf1cfdb9a238afa1dc520f8bac61466e2f7cb4aa95964192ef4bfd.html" class="ellipsis"
-                                           title=": Enviando un correo en Gmail ">
+                                           title=": Enviando un correo en Gmail Web driver exception: The following e...">
                                             : Enviando un correo en Gmail&nbsp;(4  examples)
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="SUCCESS-text">48</td>
+                                <td class="ERROR-text">36</td>
 
                                     <td class="redtext">0</td>
-                                    <td class="redtext">0</td>
+                                    <td class="redtext">2</td>
                                     <td class="redtext">0</td>
                                     <td class="bluetext">0</td>
-                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">6</td>
                                     <td class="bluetext">0</td>
 
-                                <td class="SUCCESS-text" data-sort="2018-12-26 17:51:53">17:51:53</td>
+                                <td class="ERROR-text" data-sort="2018-12-27 09:08:50">09:08:50</td>
 
-                                <td class="SUCCESS-text">205.96</td>
+                                <td class="ERROR-text">149.52</td>
                             </tr>
                         </tbody>
                     </table>
