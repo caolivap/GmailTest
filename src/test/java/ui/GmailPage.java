@@ -4,6 +4,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +20,7 @@ public class GmailPage extends PageObject {
     //Botones
     public static String btnIniciarSesion = ".gmail-nav__nav-links-wrap>.gmail-nav__nav-link.gmail-nav__nav-link__sign-in";
     public static String btnSiguienteUserName = "#identifierNext";
-    public static String BtnSiguientePass = ".qhFLie [id='passwordNext'] .CwaK9";
+    public static String BtnSiguientePass = "div#passwordNext";//".qhFLie [id='passwordNext'] .CwaK9";
     public static String btnRedactar = "div.z0>[role = button]";
     public static String btnEnviar = "div.J-J5-Ji.btA>[role=button]";
 
@@ -78,8 +79,9 @@ public class GmailPage extends PageObject {
 
     public void entrarContrasena(String pass) {
         $(formPass).sendKeys(pass);
-        withTimeoutOf(2,SECONDS);
-        $(BtnSiguientePass).click();
+        $(formPass).sendKeys(Keys.ENTER);
+        /*withTimeoutOf(3,SECONDS);
+        $(BtnSiguientePass).click();*/
     }
 
 
