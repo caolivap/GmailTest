@@ -3,13 +3,15 @@ package ui;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -140,6 +142,7 @@ public class GmailPage extends PageObject {
             arrayTablaCorreos.addAll(withTimeoutOf(15, SECONDS).findAll(correosBandejaEntrada));
             int size = arrayTablaCorreos.size();
             String urlBandejaEntrada = getDriver().getCurrentUrl();
+            long tiempoInicio = System.currentTimeMillis();
             for(int i=0; i<size; i++){
                 withTimeoutOf(3, SECONDS);
                 String auxCorreo = arrayTablaCorreos.get(i).find(By.cssSelector(etiquetaRemitente)).getAttribute("email");
@@ -159,9 +162,7 @@ public class GmailPage extends PageObject {
                         }else{
                             int j = listaAntiguos.size() - 1;
                             do {
-                                //if(!(listaAntiguos.get(j).containsElements(btnMas))){
-                                    listaAntiguos.get(j).click();
-                                //}
+                                listaAntiguos.get(j).click();
                                 listaAntiguos.get(j).findBy(btnMas).click();
                                 $(mostrarOriginal).click();
                                 recibido = compararId();
@@ -169,7 +170,13 @@ public class GmailPage extends PageObject {
                                 j--;
                             }while(j >= 0);
                         }
-                        if(recibido==true){break;}
+                        if(recibido==true){
+                            break;
+                        }else if(i==0){
+                            do{
+                                i -= 1;
+                            }while((System.currentTimeMillis() - tiempoInicio) < 60000);
+                        }
                     }
                 }
                 getDriver().get(urlBandejaEntrada);

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Enviar correo" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-12-28T03:28:50" hostname="PVID3DN8RN2" time="393.582">
+<testsuite name="Enviar correo" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-12-28T14:40:38" hostname="PVID3DN8RN2" time="214.806">
   <properties/>
-  <testcase name=": Enviando un correo en Gmail" classname="Enviar correo" time="100.001"/>
-  <testcase name=": Enviando un correo en Gmail" classname="Enviar correo" time="118.142"/>
-  <testcase name=": Enviando un correo en Gmail" classname="Enviar correo" time="78.087"/>
-  <testcase name=": Enviando un correo en Gmail" classname="Enviar correo" time="97.339"/>
+  <testcase name=": Enviando un correo en Gmail" classname="Enviar correo" time="54.08"/>
+  <testcase name=": Enviando un correo en Gmail" classname="Enviar correo" time="52.925"/>
+  <testcase name=": Enviando un correo en Gmail" classname="Enviar correo" time="52.628"/>
+  <testcase name=": Enviando un correo en Gmail" classname="Enviar correo" time="55.16"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Dado Estoy en la bandeja de entrada de Gmail con usuario pruebascaoliva@gmail.com y contrasena testingsura
-dic 27, 2018 10:28:50 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+dic 28, 2018 9:40:38 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 32827
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 9315
 Only local connections are allowed.
-dic 27, 2018 10:28:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+dic 28, 2018 9:40:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 [Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Abrir bandeja de entrada: pruebascaoliva@gmail.com, testingsura
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
@@ -29,9 +29,9 @@ INFORMACIÓN: Detected dialect: OSS
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
 [Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Entonces Deberia poder ver en la cuenta pruebadestinatario@gmail.com con pass testingsura el correo con remitente pruebascaoliva@gmail.com asunto Prueba y contenido Prueba que pasaria
-dic 27, 2018 10:29:59 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+dic 28, 2018 9:41:09 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-dic 27, 2018 10:30:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+dic 28, 2018 9:41:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 [Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Abrir bandeja de entrada: pruebadestinatario@gmail.com, testingsura
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
@@ -50,9 +50,9 @@ INFORMACIÓN: Detected dialect: OSS
 TEST PASSED: : Enviando un correo en Gmail
 ----------------------------------------------------------------------------?[0m
 [Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Dado Estoy en la bandeja de entrada de Gmail con usuario pruebascaoliva@gmail.com y contrasena testingsura
-dic 27, 2018 10:30:30 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+dic 28, 2018 9:41:32 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-dic 27, 2018 10:30:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+dic 28, 2018 9:41:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 [Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Abrir bandeja de entrada: pruebascaoliva@gmail.com, testingsura
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
@@ -70,9 +70,9 @@ INFORMACIÓN: Detected dialect: OSS
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
 [Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Entonces Deberia poder ver en la cuenta pruebadestinatario@gmail.com con pass testingsura el correo con remitente pruebascaoliva@gmail.com asunto Prueba 2 y contenido 2 Prueba que pasaria
-dic 27, 2018 10:31:11 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+dic 28, 2018 9:42:00 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-dic 27, 2018 10:31:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+dic 28, 2018 9:42:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 [Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Abrir bandeja de entrada: pruebadestinatario@gmail.com, testingsura
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
@@ -91,9 +91,9 @@ INFORMACIÓN: Detected dialect: OSS
 TEST PASSED: : Enviando un correo en Gmail
 ----------------------------------------------------------------------------?[0m
 [Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Dado Estoy en la bandeja de entrada de Gmail con usuario pruebascaoliva@gmail.com y contrasena testingsura
-dic 27, 2018 10:32:28 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+dic 28, 2018 9:42:25 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-dic 27, 2018 10:32:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+dic 28, 2018 9:42:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 [Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Abrir bandeja de entrada: pruebascaoliva@gmail.com, testingsura
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
@@ -111,9 +111,9 @@ INFORMACIÓN: Detected dialect: OSS
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
 [Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Entonces Deberia poder ver en la cuenta pruebadestinatario@gmail.com con pass testingsura el correo con remitente pruebascaoliva@gmail.com asunto Prueba 3 y contenido 3 Prueba que pasaria
-dic 27, 2018 10:33:16 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+dic 28, 2018 9:42:54 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-dic 27, 2018 10:33:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+dic 28, 2018 9:42:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 [Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Abrir bandeja de entrada: pruebadestinatario@gmail.com, testingsura
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
@@ -132,9 +132,9 @@ INFORMACIÓN: Detected dialect: OSS
 TEST PASSED: : Enviando un correo en Gmail
 ----------------------------------------------------------------------------?[0m
 [Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Dado Estoy en la bandeja de entrada de Gmail con usuario pruebascaoliva@gmail.com y contrasena testingsura
-dic 27, 2018 10:33:46 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+dic 28, 2018 9:43:17 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-dic 27, 2018 10:33:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+dic 28, 2018 9:43:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 [Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Abrir bandeja de entrada: pruebascaoliva@gmail.com, testingsura
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
@@ -152,9 +152,9 @@ INFORMACIÓN: Detected dialect: OSS
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
 [Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Entonces Deberia poder ver en la cuenta pruebadestinatario@gmail.com con pass testingsura el correo con remitente pruebascaoliva@gmail.com asunto Prueba 4 y contenido 4 Prueba que pasaria
-dic 27, 2018 10:34:25 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+dic 28, 2018 9:43:48 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-dic 27, 2018 10:34:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+dic 28, 2018 9:43:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 [Test worker] INFO net.serenitybdd.core.Serenity - STARTING STEP Abrir bandeja de entrada: pruebadestinatario@gmail.com, testingsura
 [Test worker] INFO net.serenitybdd.core.Serenity - FINISHING STEP
