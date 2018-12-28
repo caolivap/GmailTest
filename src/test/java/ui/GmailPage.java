@@ -134,10 +134,12 @@ public class GmailPage extends PageObject {
     public void deberiaVerCorreoRecibido(String remitente, String asunto, String contenido) {
         int revision=0;
         boolean recibido = false;
+        String idCorreoActual = "";
         do{
             List<WebElementFacade> arrayTablaCorreos = new ArrayList<WebElementFacade>();
             arrayTablaCorreos.addAll(withTimeoutOf(15, SECONDS).findAll(correosBandejaEntrada));
             int size = arrayTablaCorreos.size();
+            String urlBandejaEntrada = getDriver().getCurrentUrl();
             for(int i=0; i<size; i++){
                 withTimeoutOf(3, SECONDS);
                 String auxCorreo = arrayTablaCorreos.get(i).find(By.cssSelector(etiquetaRemitente)).getAttribute("email");
@@ -150,28 +152,27 @@ public class GmailPage extends PageObject {
                         }
                         List<WebElementFacade> listaAntiguos = new ArrayList<WebElementFacade>();
                         listaAntiguos.addAll(findAll(correosAntiguos));
-                        int j = listaAntiguos.size() - 1;
-                        do {
-                            if(!(listaAntiguos.get(j).containsElements(btnMas))){
-                                listaAntiguos.get(j).click();
-                            }
-                            listaAntiguos.get(j).findBy(btnMas).click();
+                        if(listaAntiguos.size() == 1){
+                            listaAntiguos.get(0).findBy(btnMas).click();
                             $(mostrarOriginal).click();
-                            //Para el manejo de la nueva pestaña
-                            ArrayList<String> tabs = new ArrayList<String> (getDriver().getWindowHandles());
-                            getDriver().switchTo().window(tabs.get(1));
-                            idCorreoEnviado = $(idMensaje).getText();
-                            getDriver().close(); //Cierra la pestaña
-                            getDriver().switchTo().window(tabs.get(0)); // Vuelve al manejador de la Bandeja de entrada
-                            if(idCorreoEnviado.equals(idCorreoEnviado)){
-                                recibido = true;
-                                break;
-                            }
-                            j--;
-                        }while(j>=0);
+                            recibido = compararId();
+                        }else{
+                            int j = listaAntiguos.size() - 1;
+                            do {
+                                //if(!(listaAntiguos.get(j).containsElements(btnMas))){
+                                    listaAntiguos.get(j).click();
+                                //}
+                                listaAntiguos.get(j).findBy(btnMas).click();
+                                $(mostrarOriginal).click();
+                                recibido = compararId();
+                                if(recibido == true){break;}
+                                j--;
+                            }while(j >= 0);
+                        }
+                        if(recibido==true){break;}
                     }
                 }
-                if(recibido == true){ break; }
+                getDriver().get(urlBandejaEntrada);
             }
             if(recibido==false){
                 revision++;
@@ -180,5 +181,17 @@ public class GmailPage extends PageObject {
             }
         }while(revision<5);
         assertThat(recibido, is(true));
+    }
+
+    public boolean compararId(){
+        //Para el manejo de la nueva pestaña
+        ArrayList<String> tabs = new ArrayList<String> (getDriver().getWindowHandles());
+        getDriver().switchTo().window(tabs.get(1));
+        String idCorreoActual = $(idMensaje).getText();
+        getDriver().close(); //Cierra la pestaña
+        getDriver().switchTo().window(tabs.get(0)); // Vuelve al manejador de la Bandeja de entrada
+        if(idCorreoActual.equals(idCorreoEnviado)) {
+            return true;
+        }else return false;
     }
 }
