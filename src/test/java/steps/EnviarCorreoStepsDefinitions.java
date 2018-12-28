@@ -38,8 +38,8 @@ public class EnviarCorreoStepsDefinitions {
     public void deberiaPoderVerEnLaCuentaDestinatarioElCorreoRecibido(String nameuser, String passDestino, String remitente,
                                                                       String asunto, String contenido) {
         driver.quit();
-        driver = new ChromeDriver();
         user.abrirNavegador();
+        //driver.switchTo().alert().accept();
         user.abrirBandejaDeEntrada(nameuser, passDestino);
         user.revisarCorreoRecibido(remitente, asunto, contenido);
     }

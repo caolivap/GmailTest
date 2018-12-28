@@ -5,6 +5,8 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,6 +45,7 @@ public class GmailPage extends PageObject {
     public static String linkVerMensaje = ".vh [id='link_vsm']";
 
     //Bandeja de Recibidos
+    public static String linkRecibidos = ".gb_Fe.gb_oc.gb_We";
     public static String correosBandejaEntrada = "table[class='F cf zt'] tr";
     public static String etiquetaRemitente = ".yX.xY>.yW>.bA4>span";
     public static String etiquetaAsunto = ".y6>.bog";
@@ -52,6 +55,9 @@ public class GmailPage extends PageObject {
     public static String correosAntiguos = ".nH[role='list'] [role='listitem']";
     public static String btnMas = ".T-I.J-J5-Ji.T-I-Js-Gs.aap.T-I-awG.T-I-ax7.L3";
     public static String mostrarOriginal = "[id='so'] .cj";
+
+    @FindBy(id = ":do")
+    WebElement notificacionNuevoMensaje;
 
     //En la pestaña Mostrar Original
     public static String idMensaje = ".message_id";
@@ -126,48 +132,53 @@ public class GmailPage extends PageObject {
 
     //Verificar correo Recibido
     public void deberiaVerCorreoRecibido(String remitente, String asunto, String contenido) {
-        List<WebElementFacade> arrayTablaCorreos = new ArrayList<WebElementFacade>();
-        String idCorreo;
+        int revision=0;
         boolean recibido = false;
-        arrayTablaCorreos.addAll(withTimeoutOf(15, SECONDS).findAll(correosBandejaEntrada));
-
-        int size = arrayTablaCorreos.size();
-        String[][] arrayRecibidos = new String[size][2];
-        for(int i=0; i<size; i++){
-            withTimeoutOf(3, SECONDS);
-            String auxCorreo = arrayTablaCorreos.get(i).find(By.cssSelector(etiquetaRemitente)).getAttribute("email");
-            if(remitente.equals(auxCorreo)){
-                String auxAsunto = arrayTablaCorreos.get(i).find(By.cssSelector(etiquetaAsunto)).getText();
-                if(asunto.equals(auxAsunto)){
-                    arrayTablaCorreos.get(i).click();
-                    if($(mostrarAntiguos).isCurrentlyVisible()){
-                        $(mostrarAntiguos).click();
+        do{
+            List<WebElementFacade> arrayTablaCorreos = new ArrayList<WebElementFacade>();
+            arrayTablaCorreos.addAll(withTimeoutOf(15, SECONDS).findAll(correosBandejaEntrada));
+            int size = arrayTablaCorreos.size();
+            for(int i=0; i<size; i++){
+                withTimeoutOf(3, SECONDS);
+                String auxCorreo = arrayTablaCorreos.get(i).find(By.cssSelector(etiquetaRemitente)).getAttribute("email");
+                if(remitente.equals(auxCorreo)){
+                    String auxAsunto = arrayTablaCorreos.get(i).find(By.cssSelector(etiquetaAsunto)).getText();
+                    if(asunto.equals(auxAsunto)){
+                        arrayTablaCorreos.get(i).click();
+                        if($(mostrarAntiguos).isCurrentlyVisible()){
+                            $(mostrarAntiguos).click();
+                        }
+                        List<WebElementFacade> listaAntiguos = new ArrayList<WebElementFacade>();
+                        listaAntiguos.addAll(findAll(correosAntiguos));
+                        int j = listaAntiguos.size() - 1;
+                        do {
+                            if(!(listaAntiguos.get(j).containsElements(btnMas))){
+                                listaAntiguos.get(j).click();
+                            }
+                            listaAntiguos.get(j).findBy(btnMas).click();
+                            $(mostrarOriginal).click();
+                            //Para el manejo de la nueva pestaña
+                            ArrayList<String> tabs = new ArrayList<String> (getDriver().getWindowHandles());
+                            getDriver().switchTo().window(tabs.get(1));
+                            idCorreoEnviado = $(idMensaje).getText();
+                            getDriver().close(); //Cierra la pestaña
+                            getDriver().switchTo().window(tabs.get(0)); // Vuelve al manejador de la Bandeja de entrada
+                            if(idCorreoEnviado.equals(idCorreoEnviado)){
+                                recibido = true;
+                                break;
+                            }
+                            j--;
+                        }while(j>=0);
                     }
-                    List<WebElementFacade> listaAntiguos = new ArrayList<WebElementFacade>();
-                    listaAntiguos.addAll(findAll(correosAntiguos));
-                    int j = listaAntiguos.size() - 1;
-                    do {
-                        if(!(listaAntiguos.get(j).containsElements(btnMas))){
-                            listaAntiguos.get(j).click();
-                        }
-                        listaAntiguos.get(j).findBy(btnMas).click();
-                        $(mostrarOriginal).click();
-                        //Para el manejo de la nueva pestaña
-                        ArrayList<String> tabs = new ArrayList<String> (getDriver().getWindowHandles());
-                        getDriver().switchTo().window(tabs.get(1));
-                        idCorreo = $(idMensaje).getText();
-                        getDriver().close(); //Cierra la pestaña
-                        getDriver().switchTo().window(tabs.get(0)); // Vuelve al manejador de la Bandeja de entrada
-                        if(idCorreoEnviado.equals(idCorreo)){
-                            recibido = true;
-                            break;
-                        }
-                     j--;
-                    }while(j>=0);
                 }
+                if(recibido == true){ break; }
             }
-            if(recibido == true){ break; }
-        }
+            if(recibido==false){
+                revision++;
+            }else{
+                break;
+            }
+        }while(revision<5);
         assertThat(recibido, is(true));
     }
 }
